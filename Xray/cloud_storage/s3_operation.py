@@ -17,7 +17,7 @@ class S3Operation:
             raise XRayException(e, sys)
 
 
- def sync_folder_from_s3(
+    def sync_folder_from_s3(
         self, folder: str, bucket_name: str, bucket_folder_name: str
     ) -> None:
         try:
